@@ -1,0 +1,6 @@
+<aura:component extends="c:base" controller="demo" implements="flexipage:availableForAllPageTypes">
+
+    <ui:button press="{!c.getResponse}" label="Get userName" />
+    <ui:button press="{!c.getException}" label="Get exception"  />
+
+</aura:component>
